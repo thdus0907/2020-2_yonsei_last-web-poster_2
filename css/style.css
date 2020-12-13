@@ -1,0 +1,383 @@
+.dish{
+	width: 630px;
+	height: 630px;
+	border-radius: 100%;
+
+	position: relative;
+	left: 30%;
+	top: 7%;
+}
+
+.circle{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: red;
+	box-shadow: 0px 0px 20px 2px #f5b199;
+
+	position: absolute;
+	left:45.8%;
+	top:44.2%;
+
+
+	animation-name: light_circle;
+	animation-duration: 4s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+
+}
+
+
+.circleline1{
+	stroke-dasharray: 528 528;
+	stroke-dashoffset:0;
+
+	animation-name: draw5;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+.circleline2{
+	stroke-dasharray: 684 684;
+	stroke-dashoffset:0;
+	
+
+	animation-name: draw6;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+
+
+.circleline3{
+	stroke-dasharray: 850 850;
+	stroke-dashoffset:0;
+	
+
+	animation-name: draw7;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+
+}
+
+.circleline4{
+	stroke-dasharray: 1057 1057;
+	stroke-dashoffset:0;
+	
+
+	animation-name: draw8;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+.circleline5{
+	stroke-dasharray: 1509 1509;
+	stroke-dashoffset:0;
+	
+
+	animation-name: draw9;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+
+.circleline6{
+	stroke-dasharray: 1814 1814;
+	stroke-dashoffset:0;
+
+
+	animation-name: draw10;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+.circleline7{
+	stroke-dasharray: 1814 1814;
+	stroke-dashoffset:0;
+	
+
+	animation-name: draw10;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+
+}
+
+.circleline8{
+	stroke-dasharray: 2326 2326;
+	stroke-dashoffset:0;
+
+
+	animation-name: draw11;
+	animation-duration: 9s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+
+.text{
+	font-family: 'Roboto', san-serif;
+	font-size: 21px;
+	color: black;
+	word-spacing: 0px;
+	letter-spacing: 0px;
+	position: absolute;
+
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+}
+
+.st0{
+	stroke-dasharray: 1 800;
+	stroke-dashoffset:0;
+
+	animation-name: draw;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+	animation-fill-mode: ;
+}
+
+.st1{
+	stroke-dasharray: 1 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw1;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+}
+
+.st2{
+	stroke-dasharray: 1 323%;
+	stroke-dashoffset:580;	
+
+	animation-name: draw2;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+}
+
+.st3{
+	stroke-dasharray: 1 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw1;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+
+}
+.st4{
+	stroke-dasharray: 1 1000;
+	stroke-dashoffset:1000;
+
+	animation-name: draw1;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+}
+.st5{
+	stroke-dasharray: 1 2000;
+	stroke-dashoffset:0;
+
+	animation-name: draw3;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+}
+.st6{
+	stroke-dasharray: 1 2000;
+	stroke-dashoffset:0;
+
+	animation-name: draw3;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+}
+.st7{
+	stroke-dasharray: 1 2000;
+	stroke-dashoffset:0;
+
+	animation-name: draw3;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+}
+.st8{
+	stroke-dasharray: 1 2000;
+	stroke-dashoffset:0;
+
+	animation-name: draw3;
+	animation-duration: 14s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+}
+
+.st9{
+	stroke-dasharray: 1 2500;
+	stroke-dashoffset:2500;
+
+	animation-name: draw4;
+	animation-duration: 12s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+}
+
+.st10{
+	stroke-dasharray: 1 2500;
+	stroke-dashoffset:0;
+
+	animation-name: draw4;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+}
+
+.st11{
+	stroke-dasharray: 1 2500;
+	transform: rotate(180deg);
+	stroke-dashoffset:0;
+
+	animation-name: draw4;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+	
+}
+
+.blackdot{
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background-color: black;
+	position: absolute;
+}
+
+@keyframes light_circle{
+	0%{
+		box-shadow: 0px 0px 20px 2px #f5b199;
+	}
+
+	50%{
+		box-shadow: 0px 0px 20px 2px red;
+	}
+
+	100%{
+		box-shadow: 0px 0px 20px 2px #f5b199;
+	}
+}
+
+@keyframes draw{
+	to{
+		stroke-dashoffset:800;
+	}
+	from{
+		stroke-dashoffset:0;
+	}
+}
+
+@keyframes draw1{
+	to{
+		stroke-dashoffset:1000;
+	}
+	from{
+		stroke-dashoffset:0;
+	}
+}
+
+@keyframes draw2{
+	to{
+		stroke-dashoffset:580;
+	}
+	from{
+		stroke-dashoffset:0;
+	}
+}
+
+@keyframes draw3{
+	to{
+		stroke-dashoffset:2000;
+	}
+	from{
+		stroke-dashoffset:0;
+	}
+}
+
+@keyframes draw4{
+	to{
+		stroke-dashoffset:2500;
+	}
+	from{
+		stroke-dashoffset:0;
+	}
+}
+
+@keyframes draw5{
+	to{
+		stroke-dashoffset:0;
+	}
+	from{
+		stroke-dashoffset:528;
+	}
+}
+
+@keyframes draw6{
+	to{
+		stroke-dashoffset:0;
+	}
+	from{
+		stroke-dashoffset:684;
+	}
+}
+
+@keyframes draw7{
+	to{
+		stroke-dashoffset:0;
+	}
+	from{
+		stroke-dashoffset:850;
+	}
+}
+
+@keyframes draw8{
+	to{
+		stroke-dashoffset:0;
+	}
+	from{
+		stroke-dashoffset:1057;
+	}
+}
+
+@keyframes draw9{
+	to{
+		stroke-dashoffset:0;
+	}
+	from{
+		stroke-dashoffset:1509;
+	}
+}
+
+@keyframes draw10{
+	to{
+		stroke-dashoffset:0;
+	}
+	from{
+		stroke-dashoffset:1814;
+	}
+}
+
+@keyframes draw11{
+	to{
+		stroke-dashoffset:0;
+	}
+	from{
+		stroke-dashoffset:2326;
+	}
+}
