@@ -1,1 +1,0 @@
-# 2020-2_yonsei_last-web-poster_2
